@@ -53,7 +53,7 @@ namespace MyRecipes
 
         public async Task SaveMyRecipesItemAsync(RecipeEntry item, bool isNewItem = false)
         {
-            // RestUrl = "http://192.168.0.7:5000/api/values"
+            
             var uri = new Uri(string.Format(Constants.RestUrl, string.Empty));
 
             try
@@ -85,7 +85,7 @@ namespace MyRecipes
 
         public async Task DeleteMyRecipesItemAsync(string id)
         {
-            // RestUrl = http://developer.xamarin.com:8081/api/MyRecipesitems/{0}
+           
             var uri = new Uri(string.Format(Constants.RestUrl, id));
 
             try
