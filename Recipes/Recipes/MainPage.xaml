@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyRecipes"
+             x:Class="MyRecipes.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+    	<Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        
+        <Entry x:Name="RecipeName"></Entry>
+        <Entry x:Name="Category"></Entry>
+        <Entry x:Name="Ingredients"></Entry>
+        <Entry x:Name="Recipe"></Entry>
+        <Entry x:Name="Notes"></Entry>
+        <Entry x:Name="ImageFilePath"></Entry>
+        <Button x:Name="SaveButton" Clicked="SaveButton_Clicked" Text="Save!"></Button>
+    </StackLayout>
+
+
+
+</ContentPage>
