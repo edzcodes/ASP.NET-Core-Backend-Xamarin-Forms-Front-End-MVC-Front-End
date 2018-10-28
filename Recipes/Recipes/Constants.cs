@@ -8,10 +8,9 @@ namespace MyRecipes
     {
 
         
-        public static string RestUrl = "http://192.168.0.7:5000/api/values";
+        public static string RestUrl = "http://{insert your IP adress here}:5000/api/values";
     
-        // Credentials that are hard coded into the REST service
-        public static string Username = "Xamarin";
-        public static string Password = "Pa$$w0rd";
+        
+        
     }
 }
